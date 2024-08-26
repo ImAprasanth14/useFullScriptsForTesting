@@ -12,11 +12,11 @@ pip install openpyxl
 4. Add the below code in **compare_excel.py** file
 ```ruby
 import pandas as pd
-//Load the Excel files
+# Load the Excel files
 df1 = pd.read_excel('path_to_file1.xlsx', sheet_name='Sheet1')
 df2 = pd.read_excel('path_to_file2.xlsx', sheet_name='Sheet1')
 
-// Compare the DataFrames
+# Compare the DataFrames
 if df1.equals(df2):
     print("The sheets are equal.")
 else:
