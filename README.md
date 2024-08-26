@@ -38,12 +38,6 @@ else:
    
     **Sheet1 = examplefilesheet_1 and 
       Sheet1 = examplefilesheet_2**
-   
-9. Run the Python script
-
-```
-python compare_excel.py
-```
 
 8. Example code ;-
 
@@ -65,5 +59,11 @@ else:
     with pd.ExcelWriter('comparison_report.xlsx') as writer:
         diff1.to_excel(writer, sheet_name='In_df1_not_in_df2')
         diff2.to_excel(writer, sheet_name='In_df2_not_in_df1')
+```
+
+9. Run the Python script
+
+```
+python compare_excel.py
 ```
    
