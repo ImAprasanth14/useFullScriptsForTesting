@@ -1,4 +1,4 @@
-# 1. Comparing two Excel sheets using Python and pandas involves a few steps
+# Comparing two Excel sheets using Python and pandas involves a few steps
 
 Step-by-Step process :-
 
